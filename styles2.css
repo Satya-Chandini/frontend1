@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.navbar{
+    background-color: #333;
+    position: sticky;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+    z-index: 1000;
+    padding: 15px 20px;
+}
+.logo{
+    color: white;
+}
+.logo h1{
+    margin: 0;
+    font-size: 24px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: color 0.3s ease ;
+}
+.nav-links a:hover{
+    color:#ffd700;
+
+}
+.main-content{
+    height:100vh ;
+    background: url(https://blog.boon.so/wp-content/uploads/2024/10/pexels-photo-18999383.jpg) center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+.content-overlay{
+    text-align: center;
+    color: white ;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.content-overlay h2{
+    font-size: bold;
+
+}
+.content-overlay p{
+    margin-top: 10px;
+}
+.get-started-button{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.get-started-button:hover{
+    background-color: #555;
+    color: #ffd700;
+
+}
+.image{
+    display: block;
+    width: 35%;
+    height: auto;
+
+}
+.serive-card{
+    position: relative;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+
+}
+.serivece-card:hover{
+   box-shadow: 5px 5px rgba(0, 98, 90, 0.4), 10px 10px rgba
+   (0, 98, 90, 0.3), 15px 15px rgba(0, 98, 90, 0.2), 20px 20px rgba
+   (0, 98, 90, 0.1), 25px 25px rgba(0, 98, 90, 0.05);
+}
+.Services-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    margin: 10px;
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(0,140,186,0.7);
+    overflow: hidden;
+    height: 20%;
+
+
+}
